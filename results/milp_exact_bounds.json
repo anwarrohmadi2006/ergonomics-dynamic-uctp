@@ -1,0 +1,78 @@
+{
+  "theoryCounts": {
+    "total": 228,
+    "n100": 197,
+    "n150": 31,
+    "totalMin": 24350
+  },
+  "dryLabPracticalsInSharedLabs": {
+    "count": 17,
+    "totalMin": 2420
+  },
+  "milpBounds": [
+    {
+      "scenario": "ModeA_47rd_0840to1800_UniformBreak",
+      "solver": "HiGHS (scipy.optimize.milp)",
+      "status": 0,
+      "optimal": true,
+      "solveMs": 69.81,
+      "halfDayBins": 94,
+      "totalCapacityMin": 23500,
+      "totalDemandMin": 24350,
+      "continuousLoadPct": 103.62,
+      "exactMinUnplacedMin": 850,
+      "exactUnplaced100m": 1,
+      "exactUnplaced150m": 5,
+      "exactShortfall100mEquiv": 8.5,
+      "feasible": false
+    },
+    {
+      "scenario": "ModeA_47rd_0840to1800_HardFridayPrayer",
+      "solver": "HiGHS (scipy.optimize.milp)",
+      "status": 0,
+      "optimal": true,
+      "solveMs": 26.76,
+      "halfDayBins": 94,
+      "totalCapacityMin": 23380,
+      "totalDemandMin": 24350,
+      "continuousLoadPct": 104.15,
+      "exactMinUnplacedMin": 1050,
+      "exactUnplaced100m": 0,
+      "exactUnplaced150m": 7,
+      "exactShortfall100mEquiv": 10.5,
+      "feasible": false
+    },
+    {
+      "scenario": "ModeA_47rd_0700to1800_HardFridayPrayer",
+      "solver": "HiGHS (scipy.optimize.milp)",
+      "status": 0,
+      "optimal": true,
+      "solveMs": 16.27,
+      "halfDayBins": 94,
+      "totalCapacityMin": 28080,
+      "totalDemandMin": 24350,
+      "continuousLoadPct": 86.72,
+      "exactMinUnplacedMin": 0,
+      "exactUnplaced100m": 0,
+      "exactUnplaced150m": 0,
+      "exactShortfall100mEquiv": 0.0,
+      "feasible": true
+    },
+    {
+      "scenario": "ModeB_With2DryLabs_0840to1800_HardFridayPrayer",
+      "solver": "HiGHS (scipy.optimize.milp)",
+      "status": 0,
+      "optimal": true,
+      "solveMs": 25.27,
+      "halfDayBins": 106,
+      "totalCapacityMin": 25750,
+      "totalDemandMin": 24350,
+      "continuousLoadPct": 94.56,
+      "exactMinUnplacedMin": 0,
+      "exactUnplaced100m": 0,
+      "exactUnplaced150m": 0,
+      "exactShortfall100mEquiv": 0.0,
+      "feasible": true
+    }
+  ]
+}

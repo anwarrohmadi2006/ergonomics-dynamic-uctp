@@ -1,0 +1,159 @@
+{
+  "theoryCapacity": {
+    "theorySessionCount": 228,
+    "theory100MinCount": 197,
+    "theory150MinCount": 31,
+    "otherDurations": [],
+    "totalTheoryMinutes": 24350,
+    "pascaRooms": 9,
+    "saintekRooms": 4,
+    "strictRoomDays": 47,
+    "ergonomic0840to1800CapMin": 23500,
+    "continuousLoadPct": 103.62,
+    "continuousDeficitMin": 850,
+    "continuous100mEquivalents": 8.5,
+    "minUnavoidableDiscreteWasteMin": 50,
+    "discreteDeficitMin": 900,
+    "discrete100mSlotsShortfall": 9,
+    "campus0700to1800CapMin": 28200,
+    "campus0700to1800LoadPct": 86.35
+  },
+  "dryLabOverflow": {
+    "rooms": [
+      "LAB. DATA ENGINEER",
+      "LAB. DATA SCIENCE"
+    ],
+    "existingDryLabSessions": 17,
+    "existingDryLabMinutes": 2420,
+    "grossWeekly0840Minutes": 5000
+  },
+  "classWorkloadAudit": {
+    "totalClasses": 36,
+    "classesExceeding1420": [
+      {
+        "className": "Teknologi Pangan 5B",
+        "totalWeeklyMinutes": 1750,
+        "sessionCount": 11,
+        "exceeds1420": true,
+        "exceeds1490": true
+      },
+      {
+        "className": "Teknologi Pangan 5A",
+        "totalWeeklyMinutes": 1700,
+        "sessionCount": 11,
+        "exceeds1420": true,
+        "exceeds1490": true
+      },
+      {
+        "className": "Teknologi Pangan 3B",
+        "totalWeeklyMinutes": 1580,
+        "sessionCount": 10,
+        "exceeds1420": true,
+        "exceeds1490": true
+      }
+    ],
+    "classesExceeding1490": [
+      {
+        "className": "Teknologi Pangan 5B",
+        "totalWeeklyMinutes": 1750,
+        "sessionCount": 11,
+        "exceeds1420": true,
+        "exceeds1490": true
+      },
+      {
+        "className": "Teknologi Pangan 5A",
+        "totalWeeklyMinutes": 1700,
+        "sessionCount": 11,
+        "exceeds1420": true,
+        "exceeds1490": true
+      },
+      {
+        "className": "Teknologi Pangan 3B",
+        "totalWeeklyMinutes": 1580,
+        "sessionCount": 10,
+        "exceeds1420": true,
+        "exceeds1490": true
+      }
+    ],
+    "highestUnder1420": {
+      "className": "Bioteknologi 3A",
+      "totalWeeklyMinutes": 1410,
+      "sessionCount": 12,
+      "exceeds1420": false,
+      "exceeds1490": false
+    },
+    "allClassesTop10": [
+      {
+        "className": "Teknologi Pangan 5B",
+        "totalWeeklyMinutes": 1750,
+        "sessionCount": 11,
+        "exceeds1420": true,
+        "exceeds1490": true
+      },
+      {
+        "className": "Teknologi Pangan 5A",
+        "totalWeeklyMinutes": 1700,
+        "sessionCount": 11,
+        "exceeds1420": true,
+        "exceeds1490": true
+      },
+      {
+        "className": "Teknologi Pangan 3B",
+        "totalWeeklyMinutes": 1580,
+        "sessionCount": 10,
+        "exceeds1420": true,
+        "exceeds1490": true
+      },
+      {
+        "className": "Bioteknologi 3A",
+        "totalWeeklyMinutes": 1410,
+        "sessionCount": 12,
+        "exceeds1420": false,
+        "exceeds1490": false
+      },
+      {
+        "className": "Bioteknologi 3B",
+        "totalWeeklyMinutes": 1410,
+        "sessionCount": 12,
+        "exceeds1420": false,
+        "exceeds1490": false
+      },
+      {
+        "className": "Teknologi Pangan 3A",
+        "totalWeeklyMinutes": 1340,
+        "sessionCount": 10,
+        "exceeds1420": false,
+        "exceeds1490": false
+      },
+      {
+        "className": "Bioteknologi 5A",
+        "totalWeeklyMinutes": 1320,
+        "sessionCount": 12,
+        "exceeds1420": false,
+        "exceeds1490": false
+      },
+      {
+        "className": "Sains Data 5A",
+        "totalWeeklyMinutes": 1320,
+        "sessionCount": 10,
+        "exceeds1420": false,
+        "exceeds1490": false
+      },
+      {
+        "className": "Bioteknologi 1A",
+        "totalWeeklyMinutes": 1240,
+        "sessionCount": 11,
+        "exceeds1420": false,
+        "exceeds1490": false
+      },
+      {
+        "className": "Ilmu Lingkungan 1A",
+        "totalWeeklyMinutes": 1240,
+        "sessionCount": 11,
+        "exceeds1420": false,
+        "exceeds1490": false
+      }
+    ]
+  },
+  "wetLabCount": 32
+}

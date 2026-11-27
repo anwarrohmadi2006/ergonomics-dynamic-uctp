@@ -1,0 +1,16 @@
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+*.xlsx
+*.xls
+*.m4a
+*.wav
+*.mp3
+.env
+.env.*
+.wrangler/
+~$*
+Transkrip*.txt

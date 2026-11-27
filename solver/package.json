@@ -1,0 +1,14 @@
+{
+  "name": "fst-ergonomics-csp-solver",
+  "version": "2.0.0",
+  "license": "MIT",
+  "description": "Modular TypeScript DSATUR + MN-LAHC Dynamic CSP Solver with 160-Bit Bitset Indexing and Audited Minimal-Perturbation Repair",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "esbuild src/index.ts --bundle --format=iife --global-name=CSPEngineBundle --outfile=dist/csp-engine.js --banner:js=\"/* Auto-compiled from solver/src/*.ts (H-ALNS-LAHC TypeScript Engine) */\" --footer:js=\"(function(r){var a=CSPEngineBundle.default||CSPEngineBundle;if(typeof module==='object'&&module.exports)module.exports=a;if(typeof r!=='undefined')r.CSPEngine=a;})(typeof globalThis!=='undefined'?globalThis:self);\""
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.2",
+    "typescript": "^5.7.2"
+  }
+}

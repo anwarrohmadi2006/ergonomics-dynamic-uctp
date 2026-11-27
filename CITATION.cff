@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, anonymized dataset, or benchmark suite, please cite the associated paper."
+title: "Ergonomics-Aware Dynamic University Course Timetabling via Client-Side Hybrid Metaheuristics: An Institutional Case Study"
+type: software
+authors:
+  - family-names: "Rohmadi"
+    given-names: "Anwar"
+    affiliation: "Data Science Study Program, Faculty of Science and Technology, Universitas Islam Negeri Raden Mas Said, Sukoharjo, Indonesia"
+  - family-names: "Muttaqiin"
+    given-names: "Muhammad Thoriq Yusron"
+    affiliation: "Data Science Study Program, Faculty of Science and Technology, Universitas Islam Negeri Raden Mas Said, Sukoharjo, Indonesia"
+  - family-names: "Arrafi"
+    given-names: "Muhammad Rasyid"
+    affiliation: "Data Science Study Program, Faculty of Science and Technology, Universitas Islam Negeri Raden Mas Said, Sukoharjo, Indonesia"
+  - family-names: "Nurfarros"
+    given-names: "Naufal Ajwa"
+    affiliation: "Data Science Study Program, Faculty of Science and Technology, Universitas Islam Negeri Raden Mas Said, Sukoharjo, Indonesia"
+  - family-names: "Pratama"
+    given-names: "Ravelino Bagas"
+    affiliation: "Data Science Study Program, Faculty of Science and Technology, Universitas Islam Negeri Raden Mas Said, Sukoharjo, Indonesia"
+repository-code: "https://github.com/anwarrohmadi2006/ergonomics-dynamic-uctp"
+license: MIT
+keywords:
+  - university course timetabling
+  - dynamic constraint satisfaction
+  - adaptive large neighborhood search
+  - late acceptance hill climbing
+  - strategic oscillation
+  - minimal perturbation
+  - learning-comfort ergonomics

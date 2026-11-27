@@ -1,0 +1,85 @@
+{
+  "runtime": "Chromium Headless Web Worker (Playwright Desktop 1x)",
+  "policy": "Mode B + Hard Friday Prayer (11:30-13:00) + Stage-4 Equity (w_lec=300)",
+  "note": "Measures genuine dedicated browser Web Worker execution on demo_app/ served locally over 127.0.0.1; physical smartphone profiling remains future work.",
+  "desktopWebWorker": {
+    "cpuThrottleRate": 1,
+    "seeds": [
+      11,
+      22,
+      27,
+      33,
+      42
+    ],
+    "runs": [
+      {
+        "seed": 11,
+        "stage13Ms": 897,
+        "totalMs": 8980.2,
+        "feasible": true,
+        "gatedHumaneScore": 90.2,
+        "balancedScore03": 84.8,
+        "balancedScore06": 79.4,
+        "lecturerIsolatedDays": 18,
+        "fridayViolations": 0
+      },
+      {
+        "seed": 22,
+        "stage13Ms": 1149.1,
+        "totalMs": 9691.4,
+        "feasible": true,
+        "gatedHumaneScore": 89.3,
+        "balancedScore03": 85.7,
+        "balancedScore06": 82.1,
+        "lecturerIsolatedDays": 12,
+        "fridayViolations": 0
+      },
+      {
+        "seed": 27,
+        "stage13Ms": 715.8,
+        "totalMs": 8121.5,
+        "feasible": true,
+        "gatedHumaneScore": 90.9,
+        "balancedScore03": 86.7,
+        "balancedScore06": 82.5,
+        "lecturerIsolatedDays": 14,
+        "fridayViolations": 0
+      },
+      {
+        "seed": 33,
+        "stage13Ms": 1155.3,
+        "totalMs": 9011.7,
+        "feasible": true,
+        "gatedHumaneScore": 92.3,
+        "balancedScore03": 84.5,
+        "balancedScore06": 76.7,
+        "lecturerIsolatedDays": 26,
+        "fridayViolations": 0
+      },
+      {
+        "seed": 42,
+        "stage13Ms": 948.8,
+        "totalMs": 8114.3,
+        "feasible": true,
+        "gatedHumaneScore": 93.3,
+        "balancedScore03": 89.1,
+        "balancedScore06": 84.9,
+        "lecturerIsolatedDays": 14,
+        "fridayViolations": 0
+      }
+    ],
+    "summary": {
+      "meanStage13Ms": 973.2,
+      "sdStage13Ms": 184.9,
+      "meanTotalMs": 8783.82,
+      "sdTotalMs": 671.03,
+      "meanGatedHumaneScore": 91.2,
+      "meanSlotEvalMs": 5.83,
+      "p95SlotEvalMs": 11.88,
+      "meanInteractiveRepairMs": 3.08,
+      "p95InteractiveRepairMs": 7.65,
+      "allFeasible": true,
+      "allZeroFriday": true
+    }
+  }
+}

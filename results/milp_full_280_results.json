@@ -1,0 +1,54 @@
+{
+  "solver": "HiGHS (scipy.optimize.milp)",
+  "policy": "Mode B + Hard Friday Prayer (11:30-13:00) + Exact 32 Wet-Lab Disjunctive Asprak",
+  "modelStats": {
+    "sessions": 280,
+    "totalBinaryVars": 88831,
+    "assignmentVars": 88358,
+    "auxDayAndAsprakVars": 473,
+    "linearConstraints": 48577,
+    "nonZeros": 4657830,
+    "modelBuildMs": 2897.37
+  },
+  "runs": [
+    {
+      "timeLimitSec": 10.5,
+      "solveMs": 15697.13,
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "incumbentFound": false,
+      "objectiveValue": null,
+      "audit": null
+    },
+    {
+      "timeLimitSec": 60.0,
+      "solveMs": 61033.14,
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+      "incumbentFound": true,
+      "objectiveValue": 105562.0,
+      "audit": {
+        "hardFeasible": true,
+        "hardConflictCount": 0,
+        "pascaViolationCount": 0,
+        "asprakDeadlockCount": 0,
+        "asprakPartialCount": 13,
+        "fridayPrayerViolationCount": 0,
+        "ishomaViolationCount": 0,
+        "earlyBefore0840Count": 55,
+        "contiguousClassCount": 23,
+        "totalHoleDays": 18,
+        "classesWithin3Days": 28,
+        "isolatedDayCount": 23,
+        "lecturerIsolatedDayCount": 20,
+        "totalLongGaps": 91,
+        "lateSessionCount": 59,
+        "rawHumaneScore": 50.7,
+        "gatedHumaneScore": 50.7,
+        "balancedScore03": 44.7,
+        "balancedScore06": 38.7
+      },
+      "placedSessions": 280
+    }
+  ]
+}
